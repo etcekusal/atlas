@@ -1,0 +1,26 @@
+*{
+    margin : 0;
+    padding :0;
+}
+.header{
+    min-height:  850px;
+    width: 100%;
+    background-image: linear-gradient(rgba(6, 15, 44, 0.93),rgba(5, 9, 20, 0.93));
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    padding: 2% 7%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.text-box{
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+}
